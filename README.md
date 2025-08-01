@@ -59,6 +59,16 @@ For convenience there are prepared scripts in package.json:
 }
 ```
 
+## Environment Variables
+
+This project includes a committed `.env` file for convenience and demo purposes.
+
+**Warning:**  
+Do **NOT** commit real secrets or credentials in `.env` to public repos.  
+In production or sensitive projects, use environment variables set via CI/CD or secret management.
+
+If you want to customize variables, edit the `.env` file accordingly.
+
 ## Useful Links
 - [Playwright Docs](https://playwright.dev/)
 - [Allure Report Docs](https://allurereport.org/docs/playwright/)
