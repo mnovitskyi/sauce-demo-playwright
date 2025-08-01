@@ -1,0 +1,26 @@
+{
+  "name": "test-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "allure:generate": "allure generate ./allure-results -o ./allure-report --clean",
+    "allure:open": "allure open ./allure-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.1.0",
+    "allure-playwright": "^3.3.2",
+    "dotenv": "^17.2.1",
+    "eslint": "^9.32.0",
+    "playwright": "^1.54.1",
+    "prettier": "^3.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
