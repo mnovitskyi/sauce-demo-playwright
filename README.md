@@ -19,7 +19,7 @@ Allure is used for generating detailed test reports.
 1. **Clone the repository** (or navigate to your project folder):
 
 ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/mnovitskyi/sauce-demo-playwright.git
    cd <your-repo-folder>
 ```
 
